@@ -64,5 +64,4 @@ class UpDoc {
 }
 
 export const upDoc = new UpDoc().init()
-
-// cmt
+// module.exports = new UpDoc().init()

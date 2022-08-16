@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      height: 120vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #up-doc {
+      width: 4rem;
+      height: 2rem;
+      border-radius: 4rem;
+      background-color: gainsboro;
+    }
+
+    #up-doc[data-updoc='up'] {
+      background-color: mediumspringgreen;
+    }
+
+    #up-doc[data-updoc='down'] {
+      background-color: slateblue;
+    }
+  </style>
+  
+</head>
+<body>
+<div id="up-doc" data-updoc>
+
+</div>
+
+  <!--  -->
+  <script type="module" src="../up-doc.js"></script>
+</body>
+</html>

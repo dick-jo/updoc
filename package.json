@@ -1,0 +1,19 @@
+{
+  "name": "updoc",
+  "version": "1.0.0",
+  "description": "minimal scroll detector for up/down scroll behaviour",
+  "main": "up-doc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dick-jo/updoc.git"
+  },
+  "author": "Dick Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dick-jo/updoc/issues"
+  },
+  "homepage": "https://github.com/dick-jo/updoc#readme"
+}
